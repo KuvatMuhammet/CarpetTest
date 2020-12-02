@@ -20,8 +20,7 @@ public class CarpetPrice {
 		Calculator price = new Calculator(floor, carpet);
 		DecimalFormat df = new DecimalFormat("0.00");
 		
-		System.out.println("Your total price for carpeting: $" + 
-		                     df.format(price.getTotalCost()));
+		System.out.println("Your total price for carpeting: $" + df.format(price.getTotalCost()));
 		
 
 	}
